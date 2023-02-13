@@ -1,5 +1,5 @@
 # Proyecto Catedra DSM
-Proyecto de cátedra de la materia DPS,
+Proyecto de cátedra de la materia DSM,
 La aplicacion se trata de una aplicación orientada a la posibilidad de gestionar y controlar un inventario de medicamentos a través de un sistema digital util y de facil funcionalidad que sirva como control de inventario, Gestion  de compras y fabricantes, lo que permitirá adaptarse a las necesidades de cualquier farmacia.  
 
 ### Integrantes DSM 2023 
