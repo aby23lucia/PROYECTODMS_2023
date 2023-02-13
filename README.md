@@ -12,9 +12,14 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 
 • Cesar Antonio Ramírez Barahona   	RB191879 
 
+•López García, Daniel Iván 	LG190078
 
 
 ### Documento Fase 1
+------------
+
+
+### Documento Fase 2
 ------------
 
 ### Licencia
