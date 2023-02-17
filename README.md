@@ -14,6 +14,8 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 
 •López García, Daniel Iván 	LG190078
 
+### ENLACE DE ACCESO AL TABLERO DE TRELLO
+https://trello.com/invite/b/YBYuTter/ATTI59b6738d4b3d7b4f9cef58fe7f88049d8DED9886/bienestarsv
 
 ### Documento Fase 1
 ------------
