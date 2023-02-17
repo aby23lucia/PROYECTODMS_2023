@@ -14,9 +14,6 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 
 •López García, Daniel Iván 	LG190078
 
-### ENLACE DE ACCESO AL TABLERO DE TRELLO
-https://trello.com/invite/b/YBYuTter/ATTI59b6738d4b3d7b4f9cef58fe7f88049d8DED9886/bienestarsv
-
 ### Documento Fase 1
 ------------
 
@@ -41,3 +38,11 @@ La licenciante no puede revocar estas libertades en tanto usted siga los términ
 - CompartirIgual — Si remezcla, transforma o crea a partir del material, debe distribuir su contribución bajo la [misma licencia](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es# "misma licencia") del original.
 
 *No hay restricciones adicionales — No puede aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otras a hacer cualquier uso permitido por la licencia.*
+
+
+
+###ENLACES 
+
+
+TRELLO:
+https://trello.com/invite/b/YBYuTter/ATTI59b6738d4b3d7b4f9cef58fe7f88049d8DED9886/bienestarsv
