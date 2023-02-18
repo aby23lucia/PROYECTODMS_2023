@@ -6,13 +6,10 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 ------------
 • Lucia Abigail regalado saravia    RS141057
 
-• Marcelo Humberto Leiva Salazar LS192212
-
 • Edwin Josué Olmedo López  OL150100
 
 • Cesar Antonio Ramírez Barahona   	RB191879 
 
-•López García, Daniel Iván 	LG190078
 
 ### Documento Fase 1
 ------------
