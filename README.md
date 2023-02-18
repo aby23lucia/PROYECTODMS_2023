@@ -8,7 +8,7 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 
 • Marcelo Humberto Leiva Salazar LS192212
 
-• Edwin Josue Olmedo López  OL150100
+• Edwin Josué Olmedo López  OL150100
 
 • Cesar Antonio Ramírez Barahona   	RB191879 
 
