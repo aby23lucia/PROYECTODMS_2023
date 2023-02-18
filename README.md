@@ -8,7 +8,9 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 
 • Edwin Josué Olmedo López  OL150100
 
-• Cesar Antonio Ramírez Barahona   	RB191879 
+• Cesar Antonio Ramírez Barahona   	RB191879
+
+• Daniel Iván López García   	LG190078
 
 
 ### Documento Fase 1
