@@ -15,8 +15,11 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 • Marcelo Humberto Leiva Salazar   	LS192212
 
 ### Documento Fase 1
-------------
 
+------------
+### Mockups
+------------
+• [MOCKUPS](https://drive.google.com/file/d/17TN-MAY1cw1oEhT0lggzzmXhy3VcA6NV/view "MOCKUPS")
 
 ### Documento Fase 2
 ------------
