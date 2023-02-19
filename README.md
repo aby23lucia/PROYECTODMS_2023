@@ -12,6 +12,7 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 
 • Daniel Iván López García   	LG190078
 
+• Marcelo Humberto Leiva Salazar   	LS192212
 
 ### Documento Fase 1
 ------------
