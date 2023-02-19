@@ -2,7 +2,7 @@
 Proyecto de cátedra de la materia DSM,
 La aplicacion se trata de una aplicación orientada a la posibilidad de gestionar y controlar un inventario de medicamentos a través de un sistema digital util y de facil funcionalidad que sirva como control de inventario, Gestion  de compras y fabricantes, lo que permitirá adaptarse a las necesidades de cualquier farmacia.  
 
-### Integrantes DSM 2023 
+### • Integrantes DSM 2023 
 ------------
 • Lucia Abigail regalado saravia    RS141057
 
@@ -17,14 +17,14 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 ### Documento Fase 1
 
 ------------
-### Mockups
+### • MOCKUPS
 ------------
-• [MOCKUPS](https://drive.google.com/file/d/17TN-MAY1cw1oEhT0lggzzmXhy3VcA6NV/view "MOCKUPS")
+• [Mockups]([https://drive.google.com/file/d/17TN-MAY1cw1oEhT0lggzzmXhy3VcA6NV](https://drive.google.com/file/d/1sVCWhkBeupwerOYE5TLJdmoUscPhouon/view?usp=sharing)/view "MOCKUPS")
 
 ### Documento Fase 2
 ------------
 
-### Licencia
+### • Licencia
 ------------
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">**Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internaciona**l</a>.
 
