@@ -19,7 +19,7 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 ------------
 ### • MOCKUPS
 ------------
-• [Mockups]([https://drive.google.com/file/d/17TN-MAY1cw1oEhT0lggzzmXhy3VcA6NV](https://drive.google.com/file/d/1sVCWhkBeupwerOYE5TLJdmoUscPhouon/view?usp=sharing)/view "MOCKUPS")
+• [Mockups](https://drive.google.com/file/d/1sVCWhkBeupwerOYE5TLJdmoUscPhouon/view?usp=sharing/view "MOCKUPS")
 
 ### Documento Fase 2
 ------------
