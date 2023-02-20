@@ -1,2 +1,8 @@
 # PROYECTODMS_2023
-Aplicación para inventario de Farmacia
+------------
+
+
+### • FASE 1:
+------------
+
+En esta fase se documenta todo lo necesario para crear nuestra aplicacion:
