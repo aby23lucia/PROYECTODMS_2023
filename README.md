@@ -23,8 +23,8 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 ------------
 
 
-### • Licencia
-------------
+### • LICENCIA:
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">**Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internaciona**l</a>.
 
 Usted es libre de:
@@ -41,11 +41,11 @@ La licenciante no puede revocar estas libertades en tanto usted siga los términ
 
 *No hay restricciones adicionales — No puede aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otras a hacer cualquier uso permitido por la licencia.*
 
+------------
 
 
 ### ENLACES   
-  ------------
-  
+ 
   ### Trello:
   
   La gestión del proyecto y flujo de trabajo, se llevará mediante la supervisión tareas/actividades a través de Trello.
