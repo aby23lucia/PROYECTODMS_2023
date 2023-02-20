@@ -18,7 +18,7 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 
 ### • FASE 1:
 
-• [Enlace :](https://github.com/aby23lucia/PROYECTODMS_2023/tree/Fase-1 "DOCUMENTO")
+• [Enlace Docmuento F1 :](https://github.com/aby23lucia/PROYECTODMS_2023/tree/Fase-1 "DOCUMENTO")
 
 ------------
 
