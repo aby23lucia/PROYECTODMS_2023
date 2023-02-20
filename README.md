@@ -44,14 +44,19 @@ La licenciante no puede revocar estas libertades en tanto usted siga los términ
 
 
 ### ENLACES   
-
-  • Trello:
-  https://trello.com/invite/b/YBYuTter/ATTI59b6738d4b3d7b4f9cef58fe7f88049d8DED9886/bienestarsv
+  ------------
+  
+  ### Trello:
+  
+  La gestión del proyecto y flujo de trabajo, se llevará mediante la supervisión tareas/actividades a través de Trello.
+  
+  [-Tablero de Actividades](https://trello.com/invite/b/YBYuTter/ATTI59b6738d4b3d7b4f9cef58fe7f88049d8DED9886/bienestarsv/view "Tablero")
   
   ------------
 
-  • MOCKUPS
+  ### MOCKUPS
+Este sitio tiene contenido sujet a libre uso con algunas restricciones, aclarando que se ha desarrollado la aplicacion para todo publico generando una atraccion a través del diseño, buscando un perfil unico y de facil utilización. Los diseños de las vistas de la aplicacion y iconografia son reservados para sus respectivos propietarios unicamente
 
-  • [Mockups](https://drive.google.com/file/d/1sVCWhkBeupwerOYE5TLJdmoUscPhouon/view?usp=sharing/view "MOCKUPS")
+  • [Enlace Mockups](https://drive.google.com/file/d/1sVCWhkBeupwerOYE5TLJdmoUscPhouon/view?usp=sharing/view "MOCKUPS")
   
   ------------
