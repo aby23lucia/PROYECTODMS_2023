@@ -3,6 +3,7 @@ Proyecto de cátedra de la materia DSM,
 La aplicacion se trata de una aplicación orientada a la posibilidad de gestionar y controlar un inventario de medicamentos a través de un sistema digital util y de facil funcionalidad que sirva como control de inventario, Gestion  de compras y fabricantes, lo que permitirá adaptarse a las necesidades de cualquier farmacia.  
 
 ### • Integrantes DSM 2023 
+------------
 • Lucia Abigail regalado saravia    RS141057
 
 • Edwin Josué Olmedo López  OL150100
@@ -14,9 +15,9 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 • Marcelo Humberto Leiva Salazar   	LS192212
 
 ### • FASE 1:
-
-• [DOCUMENTO:](https://github.com/aby23lucia/PROYECTODMS_2023/tree/Fase-1 "DOCUMENTO")
 ------------
+• [Documento:](https://github.com/aby23lucia/PROYECTODMS_2023/tree/Fase-1 "DOCUMENTO")
+
 
 
 ### • Licencia
