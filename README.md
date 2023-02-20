@@ -4,5 +4,4 @@
 
 ### • FASE 1:
 ------------
-
-En esta fase se documenta todo lo necesario para crear nuestra aplicacion:
+El presente documento hace énfasis en el proceso de creación de Bienestar-SV, describiendo los diseños, herramientas, propuesta aproximada y primordialmente la manera en que se trabajara.
