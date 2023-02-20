@@ -15,14 +15,13 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 • Marcelo Humberto Leiva Salazar   	LS192212
 
 ### • Documento Fase 1
-
 ------------
+
+• [DOCUMENTO:](https://github.com/aby23lucia/PROYECTODMS_2023/tree/Fase-1/view "DOCUMENTO")
+
 ### • MOCKUPS
 ------------
 • [Mockups](https://drive.google.com/file/d/1sVCWhkBeupwerOYE5TLJdmoUscPhouon/view?usp=sharing/view "MOCKUPS")
-
-### Documento Fase 2
-------------
 
 ### • Licencia
 ------------
