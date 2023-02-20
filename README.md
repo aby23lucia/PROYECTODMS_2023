@@ -17,11 +17,8 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 ### • FASE 1:
 ------------
 • [DOCUMENTO:](https://github.com/aby23lucia/PROYECTODMS_2023/tree/Fase-1 "DOCUMENTO")
-
-
-### • MOCKUPS
 ------------
-• [Mockups](https://drive.google.com/file/d/1sVCWhkBeupwerOYE5TLJdmoUscPhouon/view?usp=sharing/view "MOCKUPS")
+
 
 ### • Licencia
 ------------
@@ -44,7 +41,12 @@ La licenciante no puede revocar estas libertades en tanto usted siga los términ
 
 
 ### ENLACES   
-
-
+------------
 TRELLO:
 https://trello.com/invite/b/YBYuTter/ATTI59b6738d4b3d7b4f9cef58fe7f88049d8DED9886/bienestarsv
+------------
+
+### • MOCKUPS
+------------
+• [Mockups](https://drive.google.com/file/d/1sVCWhkBeupwerOYE5TLJdmoUscPhouon/view?usp=sharing/view "MOCKUPS")
+------------
