@@ -1,2 +1,2 @@
-# PROYECTODMS_2023
+# FASE 2
 Aplicación para inventario de Farmacia
