@@ -8,35 +8,35 @@ import android.view.MenuItem
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 
-class PerfilActivity : AppCompatActivity() {
+class PerfilAcitivty : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_perfil)
+        setContentView(R.layout.activity_perfil_acitivty)
     }
-
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
 
         menuInflater.inflate(R.menu.main2_menu, menu)
         return super.onCreateOptionsMenu(menu)
-
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
     }
+
 
 
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-
-            R.id.action_product-> {
+            R.id.action_sing_out -> {
                 FirebaseAuth.getInstance().signOut().also {
-                    Toast.makeText(this, "Productos", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Sesion Cerrada", Toast.LENGTH_SHORT).show()
 
-                    val intent = Intent(this,ProductActivity::class.java)
+                    val intent = Intent(this, SignInActivity::class.java)
                     startActivity(intent)
                     finish()
                 }
             }
 
-            R.id.action_proveedor-> {
+            R.id.action_product-> {
                 FirebaseAuth.getInstance().signOut().also {
                     Toast.makeText(this, "Proveedor", Toast.LENGTH_SHORT).show()
 
@@ -65,7 +65,7 @@ class PerfilActivity : AppCompatActivity() {
             }
             R.id.action_regresar-> {
                 FirebaseAuth.getInstance().signOut().also {
-                    Toast.makeText(this, "Menu", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "User", Toast.LENGTH_SHORT).show()
 
                     val intent = Intent(this,MainActivity::class.java)
                     startActivity(intent)

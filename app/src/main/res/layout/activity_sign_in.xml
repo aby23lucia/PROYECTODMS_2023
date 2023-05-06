@@ -12,13 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
-        android:text="Iniciar Sesiòn"
+        android:text="Sign In"
         android:textColor="#151414"
         android:textSize="34sp"
         android:textStyle="bold"
         android:translationX="120sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="196dp" />
 
 
     <ImageView
@@ -27,9 +27,9 @@
         android:layout_height="146dp"
         android:layout_marginTop="36dp"
         android:translationX="90sp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1"
-        app:srcCompat="@drawable/logonegro" />
+        app:srcCompat="@drawable/logonegro"
+        tools:layout_editor_absoluteX="7dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutEmail"
@@ -74,13 +74,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="56dp"
         android:backgroundTint="#7587F6"
-        android:text="Ingresar"
-        app:icon="@drawable/ic_check"
+        android:text="Sign In"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutPassword" />
 
@@ -88,7 +87,7 @@
         android:id="@+id/txtcuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrarse"
+        android:text="Not Register Yet, Sign Up"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,25 +101,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="144dp"
         android:layout_marginTop="8dp"
-        android:text="Olvide constraseña"
+        android:text="Forget password"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtcuenta" />
-
-    <Button
-        android:id="@+id/btnGoogle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="23dp"
-        android:backgroundTint="#90228CBF"
-        android:text="Gmail"
-        app:icon="@drawable/googleg_standard_color_18"
-        android:textColor="#151414"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/btnSignIn"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutPassword" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

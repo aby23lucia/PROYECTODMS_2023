@@ -7,21 +7,19 @@
     android:background="#C15EA2C3"
     tools:context=".SignUpActivity">
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
-        android:text="REGISTRARSE"
+        android:text="Sign Up"
         android:textColor="#221F1F"
-        android:textSize="25sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         android:translationX="120sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutEmail"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="142dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutEmail"
@@ -86,13 +84,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#90228CBF"
-        android:text="REGISTRAR"
+        android:backgroundTint="#7587F6"
+        android:text="Sign Up"
         android:textColor="@color/black"
-        app:icon="@drawable/ic_check"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutConfirmPassword" />
 
@@ -100,14 +96,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Iniciar Sesiòn"
-        android:textSize="18sp"
+        android:text="Ya tienes cuenta?"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSign" />
+    />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

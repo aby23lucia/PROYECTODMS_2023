@@ -26,8 +26,6 @@ class ProductActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_product)
-
-
         btnInsertData=findViewById(R.id.btnIngresar)
 
         btnInsertData.setOnClickListener {
@@ -63,6 +61,22 @@ class ProductActivity : AppCompatActivity() {
                     val mAdapter = ProducAdapter(productosList)
                     producRecyclerView.adapter = mAdapter
 
+                    mAdapter.setOnItemClickListener(object : ProducAdapter.onItemnClickListener{
+                        override fun onItemClick(position: Int) {
+                            val intent =Intent(this@ProductActivity, ProducDetailsActivity::class.java)
+
+                            intent.putExtra("empId", productosList[position].empId)
+                            intent.putExtra("empNomProducto", productosList[position].empNomProducto)
+                            intent.putExtra("empMarca", productosList[position].empMarca)
+                            intent.putExtra("empCantidad", productosList[position].empCantidad)
+                            intent.putExtra("empProveedor", productosList[position].empProveedor)
+                            intent.putExtra("empDescrpcion", productosList[position].empDescrpcion)
+                            startActivity(intent)
+
+                        }
+
+                    })
+
                     producRecyclerView.visibility= View.VISIBLE
                     tvLoadingData.visibility = View.GONE
                 }
@@ -80,13 +94,24 @@ class ProductActivity : AppCompatActivity() {
 
         menuInflater.inflate(R.menu.main2_menu, menu)
         return super.onCreateOptionsMenu(menu)
-
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_proveedor-> {
+            R.id.action_sing_out -> {
+                FirebaseAuth.getInstance().signOut().also {
+                    Toast.makeText(this, "Sesion Cerrada", Toast.LENGTH_SHORT).show()
+
+                    val intent = Intent(this, SignInActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                }
+            }
+
+            R.id.action_product-> {
                 FirebaseAuth.getInstance().signOut().also {
                     Toast.makeText(this, "Proveedor", Toast.LENGTH_SHORT).show()
 
@@ -117,14 +142,14 @@ class ProductActivity : AppCompatActivity() {
                 FirebaseAuth.getInstance().signOut().also {
                     Toast.makeText(this, "User", Toast.LENGTH_SHORT).show()
 
-                    val intent = Intent(this,PerfilActivity::class.java)
+                    val intent = Intent(this,PerfilAcitivty::class.java)
                     startActivity(intent)
                     finish()
                 }
             }
             R.id.action_regresar-> {
                 FirebaseAuth.getInstance().signOut().also {
-                    Toast.makeText(this, "Menu", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "User", Toast.LENGTH_SHORT).show()
 
                     val intent = Intent(this,MainActivity::class.java)
                     startActivity(intent)
