@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
      private fun clickListener(){
         val Product=findViewById<ImageView>(R.id.cardproduct)
         val proveedor=findViewById<ImageView>(R.id.cardinventario)
@@ -79,11 +80,39 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openPerfilActivity(){
-        startActivity(Intent(this@MainActivity,PerfilActivity::class.java))
+        startActivity(Intent(this@MainActivity,PerfilAcitivty::class.java))
     }
 
     private fun openSalirActivity(){
         startActivity(Intent(this@MainActivity,SignUpActivity::class.java))
+    }
+
+
+
+
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_sing_out -> {
+                FirebaseAuth.getInstance().signOut().also {
+                    Toast.makeText(this, "Sesion Cerrada", Toast.LENGTH_SHORT).show()
+
+                    val intent = Intent(this, SignInActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                }
+            }
+
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 
 }

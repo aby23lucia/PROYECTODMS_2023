@@ -18,22 +18,24 @@ class ReporteActivity : AppCompatActivity() {
 
         menuInflater.inflate(R.menu.main2_menu, menu)
         return super.onCreateOptionsMenu(menu)
-
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_product-> {
+            R.id.action_sing_out -> {
                 FirebaseAuth.getInstance().signOut().also {
-                    Toast.makeText(this, "Producto", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Sesion Cerrada", Toast.LENGTH_SHORT).show()
 
-                    val intent = Intent(this,ProductActivity::class.java)
+                    val intent = Intent(this, SignInActivity::class.java)
                     startActivity(intent)
                     finish()
                 }
             }
-            R.id.action_proveedor-> {
+
+            R.id.action_product-> {
                 FirebaseAuth.getInstance().signOut().also {
                     Toast.makeText(this, "Proveedor", Toast.LENGTH_SHORT).show()
 
@@ -55,7 +57,7 @@ class ReporteActivity : AppCompatActivity() {
                 FirebaseAuth.getInstance().signOut().also {
                     Toast.makeText(this, "User", Toast.LENGTH_SHORT).show()
 
-                    val intent = Intent(this,PerfilActivity::class.java)
+                    val intent = Intent(this,PerfilAcitivty::class.java)
                     startActivity(intent)
                     finish()
                 }

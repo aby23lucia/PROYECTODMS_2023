@@ -13,5 +13,6 @@
     <color name="colorToolbarStart">#EFB2EF</color>
     <color name="colorToolbarEnd">#FB26F0</color>
     <color name="green">#41B41F</color>
+    <color name="divider_grey">#9b9b9b</color>
 
 </resources>
