@@ -38,14 +38,7 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
   
   ------------
 
-  ### MOCKUPS
-Este sitio tiene contenido sujet a libre uso con algunas restricciones, aclarando que se ha desarrollado la aplicacion para todo publico generando una atraccion a través del diseño, buscando un perfil unico y de facil utilización. Los diseños de las vistas de la aplicacion y iconografia son reservados para sus respectivos propietarios unicamente
 
-  • [Enlace Mockups](https://drive.google.com/file/d/1sVCWhkBeupwerOYE5TLJdmoUscPhouon/view?usp=sharing/view "MOCKUPS")
-  
-  ------------
-  
-  
   ### • LICENCIA:
   
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">**Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internaciona**l</a>.
