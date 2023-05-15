@@ -16,15 +16,13 @@ La aplicacion se trata de una aplicación orientada a la posibilidad de gestiona
 
 ------------
 
-### • FASE 1:
+### • Manual Tecnico:
 
-• [Enlace rama Fase-1 :](https://github.com/aby23lucia/PROYECTODMS_2023/tree/Fase-1 "DOCUMENTO")
+• [Enlace:](https://drive.google.com/file/d/1mSCSme_p0TonIBly4cxDMwjhYWilpiwu/view?usp=sharing)
 
-------------
+### • Manual de Usuario:
+• [Enlace:](https://drive.google.com/file/d/1gPKtkFSylsReeY8iF_4dXIPWQ20wADpU/view?usp=sharing)
 
-### • FASE 2:
-
-• [Enlace rama Fase-2 :](https://github.com/aby23lucia/PROYECTODMS_2023/tree/Fase-2 "DOCUMENTO")
 
 
 
