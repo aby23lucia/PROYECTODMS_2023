@@ -1,5 +1,6 @@
 package com.example.proyecto_bienestarsv
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -80,6 +81,12 @@ class InsertionActivity : AppCompatActivity() {
                     etEmpMarca.text.clear()
                     etEmpProveedor.text.clear()
                     etEmpDescripcion.text.clear()
+                    //Redirige al crud, luego de insertar
+
+                    val intent = Intent(this,ProductActivity::class.java)
+                    finish()
+
+
                 }.addOnFailureListener { err ->
                     Toast.makeText(this, "Error ${err.message}", Toast.LENGTH_LONG).show()
                 }

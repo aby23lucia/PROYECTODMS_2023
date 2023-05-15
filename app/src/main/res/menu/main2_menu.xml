@@ -4,6 +4,7 @@
     <item android:id="@+id/action_product"
         android:title="Productos"
         app:showAsAction="never"
+        
         ></item>
     <item android:id="@+id/action_proveedor"
         android:title="Proveedores"

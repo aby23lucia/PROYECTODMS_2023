@@ -26,13 +26,14 @@ class ProductActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_product)
-        btnInsertData=findViewById(R.id.btnIngresar)
 
+        btnInsertData=findViewById(R.id.btnIngresar)
         btnInsertData.setOnClickListener {
             val intent=Intent(this,InsertionActivity::class.java)
             startActivity(intent)
         }
 
+        producRecyclerView=findViewById(R.id.tvProduc)
         producRecyclerView=findViewById(R.id.tvProduc)
         producRecyclerView.layoutManager=LinearLayoutManager(this)
         producRecyclerView.setHasFixedSize(true)

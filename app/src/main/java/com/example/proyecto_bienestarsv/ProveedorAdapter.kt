@@ -33,10 +33,14 @@ class ProveedorAdapter ( private val proveedorList: ArrayList<ProveedorModel>) :
     override fun getItemCount(): Int {
         return proveedorList.size
     }
-    class ViewHolder(itemView: View, clickListener: onItemnClickListener): RecyclerView.ViewHolder(itemView){
+
+
+    class ViewHolder(itemView: View, clickListener: onItemnClickListener): RecyclerView.ViewHolder(itemView)
+        {
 
         val tvProveedorName: TextView =itemView.findViewById(R.id.tvProveedorName)
-        init {
+        init
+        {
             itemView.setOnClickListener{
                 clickListener.onItemClick(adapterPosition)
             }

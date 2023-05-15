@@ -20,13 +20,15 @@ class ProveedorActivity : AppCompatActivity() {
     private lateinit var proveeRecyclerView: RecyclerView
     private lateinit var tvLoadingData: TextView
     private lateinit var proveedorList: ArrayList<ProveedorModel>
+
+
     private lateinit var dbRef: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_proveedor)
-        btnInsertData=findViewById(R.id.btnIngresarProveedor)
 
+        btnInsertData=findViewById(R.id.btnIngresarProveedor)
         btnInsertData.setOnClickListener {
             val intent=Intent(this,InsertionActivityProveedor::class.java)
             startActivity(intent)
