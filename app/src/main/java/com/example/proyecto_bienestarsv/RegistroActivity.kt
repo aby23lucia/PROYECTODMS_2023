@@ -65,6 +65,7 @@ class RegistroActivity : AppCompatActivity() {
                     pedidoRecyclerView.adapter = mAdapter
 
 
+
                      mAdapter.setOnItemClickListener(object :PedidoAdapter.onItemnClickListener{
                          override fun onItemClick(position: Int) {
                              val  intent =Intent (this@RegistroActivity,PedidoDetailsActivity::class.java)

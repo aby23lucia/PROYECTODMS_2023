@@ -14,6 +14,12 @@
         android:theme="@style/Theme.ProyectoBienestarSV"
         tools:targetApi="31">
         <activity
+            android:name=".MembresiaDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsertionActivityMembresia"
+            android:exported="false" />
+        <activity
             android:name=".InsertionActivityPedidos"
             android:exported="false" />
         <activity
