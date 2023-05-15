@@ -41,6 +41,7 @@ class ProveedorDetailsActivity : AppCompatActivity() {
                 //intent.getStringExtra("empDescrpcion").toString()
             )
         }
+
         btnDelete.setOnClickListener {
             deleteData(
                 intent.getStringExtra("proveedorid").toString()
@@ -73,6 +74,7 @@ class ProveedorDetailsActivity : AppCompatActivity() {
         tvProveedorDireccion = findViewById(R.id.tvProveedorDireccion)
         tvProveedorTelefono = findViewById(R.id.tvProveedorTelefono)
         tvProveedorCorreo = findViewById(R.id.tvProveedorCorreo)
+
         btnUpdate = findViewById(R.id.btnUpdate)
         btnDelete = findViewById(R.id.btnDelete)
     }
